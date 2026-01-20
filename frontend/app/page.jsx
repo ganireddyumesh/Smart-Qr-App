@@ -44,7 +44,7 @@ export default function Home() {
 
             {/* Footer */}
             <div className="pb-8 text-gray-400 text-xs font-medium">
-                © 2024 Smart QR Dining
+                ©2026 Thambi Qr Dining
             </div>
         </div>
     );
