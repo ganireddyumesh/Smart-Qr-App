@@ -4,7 +4,13 @@ import { CartProvider } from "../lib/CartContext";
 export const metadata = {
     title: "Gourmet Delights",
     description: "Smart QR Menu",
-    viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+};
+
+export const viewport = {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
 };
 
 export default function RootLayout({ children }) {
